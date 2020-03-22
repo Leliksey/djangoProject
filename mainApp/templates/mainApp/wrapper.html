@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+	{% load static %}
+	<link rel="stylesheet" type="text/css" href="/static/css/style.css">
+</head>
+<body>
+	<div class="all__wrapper">
+        {% block content %}
+
+        {% endblock %}
+		<section class="section">
+			<div class="thing">
+				<div class="text">Идеальный маникюр для женщины - это один из основных показателей ее успешности, своеобразный способ самовыражения, а маникюр с гель-лаком позволяет вашим ручкам гораздо дольше выглядеть привлекательно и аккуратно.</div>
+			</div>
+			<div class="cont">
+				<div class="first_column">
+					<div class="img__box">
+						<img src="./static/img/1.jpg" alt="pic">
+					</div>
+					<div class="img__box">
+						<img src="./static/img/3.jpg" alt="pic">
+					</div>
+					<div class="img__box">
+						<img src="./static/img/5.jpg" alt="pic">
+					</div>
+				</div>
+				<div class="second_column">
+					<div class="img__box">
+						<img src="./static/img/2.jpg" alt="pic">
+					</div>
+					<div class="img__box">
+						<img src="./static/img/4.jpg" alt="pic">
+					</div>
+					<div class="img__box">
+						<img src="./static/img/6.jpg" alt="pic">
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="footer">
+			<a href="https://instagram.com/borisova_nailss" target="_blank">
+				<div class="social__box insta">
+					<img src="./static/img/instagram.png" alt="instagram">
+				</div>
+			</a>
+			<a href="https://vk.com/anastasiya916" target="_blank">
+				<div class="social__box">
+					<img src="./static/img/vk.png" alt="vk">
+				</div>
+			</a>
+			<a href="https://www.facebook.com/profile.php?id=100022526348436" target="_blank">
+				<div class="social__box">
+					<img src="./static/img/Facebook.png" alt="facebook">
+				</div>
+			</a>
+			<a href="tel:+380964133326">
+				<div class="phone">+38(096) 413 33 26</div>
+			</a>
+		</footer>
+
+	</div>
+</body>
+</html>
